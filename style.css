@@ -8,6 +8,7 @@
 .banner-container {
     background-color: rgba(229, 84, 115, 0.10);
     overflow: hidden;
+    position: relative;
 }
 
 .banner-wrap {
@@ -53,9 +54,11 @@
 }
 
 .banner-img {
-    width: 100%;
+    width: 500px;
+    height: 650px;
     margin-top: 8px;
     bottom: 0;
+    position: absolute;
 }
 
 /* Featured Section Started From Here */
