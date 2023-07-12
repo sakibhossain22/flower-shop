@@ -8,7 +8,7 @@
 .banner-container {
     background-color: rgba(229, 84, 115, 0.10);
     overflow: hidden;
-    position: relative;
+    width: 100%;
 }
 
 .banner-wrap {
@@ -16,19 +16,16 @@
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    gap: 100px;
+    gap: 80px;
     height: 100vh;
-    margin: 0 60px 0 60px;
+    padding: 0 60px 0 60px;
     overflow: hidden;
+    width: 95%;
 }
 
 .banner-content {
     width: 100%;
 }
-.banner-c {
-    
-}
-
 .banner-header {
     color: #272727;
     font-size: 50px;
@@ -54,11 +51,7 @@
 }
 
 .banner-img {
-    width: 500px;
-    height: 650px;
-    margin-top: 8px;
-    bottom: 0;
-    position: absolute;
+    width: 100%;
 }
 
 /* Featured Section Started From Here */
@@ -92,8 +85,6 @@
     margin: auto;
 
 }
-
-.feature-box {}
 
 .feature-img {
     width: 200px;
