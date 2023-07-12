@@ -28,7 +28,7 @@
 }
 .banner-header {
     color: #272727;
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 800;
 }
 
@@ -125,7 +125,7 @@
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     padding: 50px 30px;
-    na
+    margin-bottom: 125px;
 }
 
 .hot-del-container {
@@ -146,7 +146,7 @@
 
 .hdc-head {
     color: #272727;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 800;
 }
 
@@ -186,7 +186,7 @@
 
 .insta-photo {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 40px 60px;
     margin: 30px;
@@ -231,6 +231,9 @@
 }
 
 /* Buy Now Section Stared From here */
+.rating {
+    margin: 10px 0;
+}
 .buy-now {
     background-color: rgba(229, 84, 115, 0.10);
 }
@@ -251,7 +254,7 @@
 }
 .boy-box-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin: 50px;
     padding: 20px 50px;
@@ -286,7 +289,9 @@
     width: 100%;
     cursor: pointer;
 }
-
+.fa-arrow-right {
+    margin-left: 10px;
+}
 
 
 
